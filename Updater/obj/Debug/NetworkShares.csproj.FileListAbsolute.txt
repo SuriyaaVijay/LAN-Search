@@ -1,0 +1,6 @@
+C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\NetworkShares\bin\Debug\NetworkShares.dll
+C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\NetworkShares\bin\Debug\NetworkShares.pdb
+C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\NetworkShares\obj\Debug\NetworkShares.csproj.AssemblyReference.cache
+C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\NetworkShares\obj\Debug\NetworkShares.csproj.CoreCompileInputs.cache
+C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\NetworkShares\obj\Debug\NetworkShares.dll
+C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\NetworkShares\obj\Debug\NetworkShares.pdb
