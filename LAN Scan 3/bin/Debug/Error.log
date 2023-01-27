@@ -1,0 +1,384 @@
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread()
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread()
+
+System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at lanscan.FormMain.SetSearchStatus(String s)
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Windows.Forms.ToolStripControlHost.SetVisibleCore(Boolean visible)
+   at lanscan.FormMain.StopProgBar()
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread()
+
+System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at lanscan.FormMain.SetSearchStatus(String s)
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Windows.Forms.ToolStripControlHost.SetVisibleCore(Boolean visible)
+   at lanscan.FormMain.StopProgBar()
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'FormMain'.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at lanscan.FormMain.SetSearchStatus(String s) in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 443
+
+System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at lanscan.FormMain.StopProgBar() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 492
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Net.UnsafeNclNativeMethods.SafeNetHandlesXPOrLater.GetAddrInfoW(String nodename, String servicename, AddressInfo& hints, SafeFreeAddrInfo& handle)
+   at System.Net.Dns.TryGetAddrInfo(String name, AddressInfoHints flags, IPHostEntry& hostinfo)
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at lanscan.FormMain.StopProgBar()
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at lanscan.FormMain.SetSearchStatus(String s) in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 443
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Windows.Forms.ToolStripControlHost.SetVisibleCore(Boolean visible)
+   at System.Windows.Forms.ToolStripItem.set_Visible(Boolean value)
+   at lanscan.FormMain.StopProgBar() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 496
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at lanscan.FormMain.SetSearchStatus(String s) in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 443
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'FormMain'.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at lanscan.FormMain.SetSearchStatus(String s) in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 443
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Net.UnsafeNclNativeMethods.SafeNetHandlesXPOrLater.GetAddrInfoW(String nodename, String servicename, AddressInfo& hints, SafeFreeAddrInfo& handle)
+   at System.Net.Dns.TryGetAddrInfo(String name, AddressInfoHints flags, IPHostEntry& hostinfo)
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Net.UnsafeNclNativeMethods.SafeNetHandlesXPOrLater.GetAddrInfoW(String nodename, String servicename, AddressInfo& hints, SafeFreeAddrInfo& handle)
+   at System.Net.Dns.TryGetAddrInfo(String name, AddressInfoHints flags, IPHostEntry& hostinfo)
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'FormMain'.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at lanscan.FormMain.SetSearchStatus(String s) in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 443
+
+System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at lanscan.FormMain.StopProgBar() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 492
+
+System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at lanscan.FormMain.SetSearchStatus(String s) in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 443
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Windows.Forms.ToolStripControlHost.SetVisibleCore(Boolean visible)
+   at System.Windows.Forms.ToolStripItem.set_Visible(Boolean value)
+   at lanscan.FormMain.StopProgBar() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 496
+
+System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at lanscan.FormMain.SetSearchStatus(String s) in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 443
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Windows.Forms.ToolStripControlHost.SetVisibleCore(Boolean visible)
+   at System.Windows.Forms.ToolStripItem.set_Visible(Boolean value)
+   at lanscan.FormMain.StopProgBar() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 496
+
+System.Net.NetworkInformation.PingException: An exception occurred during a Ping request. ---> System.Net.Sockets.SocketException: No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- End of inner exception stack trace ---
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   at lanscan.FormMain.FeaturedThread() in C:\Users\Kartikeyan TR\OneDrive\Documents\COMPUTER NETWORKS\LAN Scan 3\LAN Scan 3\FormMain.cs:line 264
+
