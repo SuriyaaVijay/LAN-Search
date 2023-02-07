@@ -1,6 +1,6 @@
-# LAN-Scan
+# LAN-Search
 
-LanScan is a tool designed for the purpose of searching for files and folders which are shared over a Local Area Network. It is particularly useful in organizations where a lot of folders are shared on individual systems.
+Lan Search is a tool designed for the purpose of searching for files and folders which are shared over a Local Area Network. It is particularly useful in organizations where a lot of folders are shared on individual systems.
 
 ## How it works?
 
@@ -10,4 +10,23 @@ The first point of interest would be - how to determine whether a system with a 
 
 ## Output Images
 
-### Project Demo ppt and LaTex Document is provided along with this Project 
+Search Results
+:------------------:|
+![Search Result](Screenshots/pic3.png)  
+
+UI
+:------------------:|
+![UI](Screenshots/pic2.png)
+
+Search Configurations
+:------------------:|
+![Search Configurations](Screenshots/pic1.png)
+
+## Project Demo ppt and LaTex Document is provided along with this Project 
+
+See our Project Presentation @ [Project PPT](/LAN_Search.pptx) <br>
+See our LaTex Document in IEEE Conference Format @ [Project Document](/TRIE_FILE_SEARCH_ENGINE.pdf)
+
+## For Project Demo, Check @
+
+[LAN Search Demo](https://youtu.be/jsArVg6YyUE)
